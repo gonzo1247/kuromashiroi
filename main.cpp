@@ -9,6 +9,7 @@
 #include "resource.h"
 
 // test
+// test2
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK ChildProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK CheckRadioProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
