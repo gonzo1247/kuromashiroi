@@ -9,8 +9,11 @@
 #include "resource.h"
 
 // test
-// test 2
+<<<<<<< HEAD
 // test2
+=======
+// test 2
+>>>>>>> 881a603122511361579d54d1da92d57803c30445
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK ChildProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK CheckRadioProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
