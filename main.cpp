@@ -11,6 +11,7 @@
 // test
 // test 2
 // test2
+// test 3
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK ChildProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK CheckRadioProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
