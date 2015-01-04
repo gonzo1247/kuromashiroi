@@ -1,0 +1,9 @@
+------- Settings ----------
+BUILD: DEBUG
+Music: 50
+Graphic: 800 x 600
+Full Screen: 0 (false)
+
+
+Test 76804800 
+End of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of OptionsEnd of Options
