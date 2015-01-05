@@ -8,12 +8,14 @@
 #include "CLogin.h"
 #include "resource.h"
 
-// test
 <<<<<<< HEAD
-// test2
-=======
+// test
 // test 2
->>>>>>> 881a603122511361579d54d1da92d57803c30445
+// test2
+// test 3
+// test 4
+=======
+>>>>>>> c6a175f876c8f38e22f966ce6e381adcf4ab3637
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK ChildProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT CALLBACK CheckRadioProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
