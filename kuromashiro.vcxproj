@@ -81,11 +81,14 @@
   <ItemGroup>
     <ClCompile Include="CFile.cpp" />
     <ClCompile Include="CLogin.cpp" />
+    <ClCompile Include="CNetwork.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="perst.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CFile.h" />
     <ClInclude Include="CLogin.h" />
+    <ClInclude Include="CNetwork.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

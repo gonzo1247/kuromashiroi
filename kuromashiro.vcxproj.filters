@@ -24,6 +24,12 @@
     <ClCompile Include="CLogin.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="perst.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetwork.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -33,6 +39,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="CLogin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetwork.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
