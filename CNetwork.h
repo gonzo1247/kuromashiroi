@@ -15,6 +15,7 @@
 #include <ws2tcpip.h>
 #include <iphlpapi.h>
 #include <stdio.h>
+#include <io.h>
 #define in_addr_t unsigned long
 
 #else
@@ -52,13 +53,12 @@ class CNetwork
         void SendData(SOCKET ConnectSocket);
         void ReceiveData(SOCKET ConnectSocket, int Result);
 
-};
+    private:
+        int m_sock;
+        sockaddr_in m_addr;
 
 
-
-
-
-
+};                                                       
 
 
 #endif __CNETWORK

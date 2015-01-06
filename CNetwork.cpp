@@ -1,12 +1,24 @@
 #include "CNetwork.h"
 
 
+CNetwork::CNetwork() : m_sock(0)
+{
+    CNetwork cnetwork;
+    WORD wVersionRequested;
+    WSADATA wsaData;
+    wVersionRequested = MAKEWORD(2, 2);
+    if (WSAStartup(wVersionRequested, &wsaData) != 0)
+        cnetwork.CreateConnect();
+        
+
+}
 
 CNetwork::~CNetwork()
 {
+    ::closesocket(m_sock);
     
 }
-/*
+
 void CNetwork::CreateConnect()
 {
     WSADATA wsaData;
@@ -104,7 +116,29 @@ void CNetwork::CloseConnect(SOCKET ConnectSocket, int Result)
     {
         closesocket(ConnectSocket);
         WSACleanup();
-    }                
+    }
+
+    if (Result == SOCKET_ERROR)
+    {
+        closesocket(ConnectSocket);
+        WSACleanup();
+    }
+
+    if (Result == INVALID_SOCKET)
+    {
+        closesocket(ConnectSocket);
+        WSACleanup();
+    }
+
+    if (ConnectSocket == INVALID_SOCKET)
+    {
+        closesocket(ConnectSocket);
+        WSACleanup();
+    }
+
+    closesocket(ConnectSocket);
+    WSACleanup();
+
 }
 
 void CNetwork::ReceiveData(SOCKET ConnectSocket, int Result)
@@ -115,8 +149,33 @@ void CNetwork::ReceiveData(SOCKET ConnectSocket, int Result)
     // Receive data until the server closes the connect
     do
     {
-        Result = revc(ConnectSocket, recvbuf, recvbuflen, 0);
-        if ()
-    }
+        Result = recv(ConnectSocket, recvbuf, recvbuflen, 0);
+        //if (Result > 0)
 
-}                     */
+    } while (Result > 0);
+}
+
+int CNetwork::CloseConnect(SOCKET ConnectSocket)
+{
+    closesocket(ConnectSocket);
+    return 1;
+
+}
+
+int CNetwork::ConnectFail(SOCKET ConnectSocket)
+{
+    CNetwork cnetwork;
+
+    cnetwork.CloseConnect(ConnectSocket);
+
+    return 1;
+}
+
+int CNetwork::ConnectFail(int Result)
+{
+    CNetwork cnetwork;
+
+    WSACleanup();
+
+    return 1;
+}
